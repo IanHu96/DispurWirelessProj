@@ -182,7 +182,7 @@ List.add(c); }
 
 e.printStackTrace(); } 
 
-Finally { db.Util.closeConnection(con); 
+finally { db.Util.closeConnection(con); 
 
 } return list; } 
                    
@@ -210,6 +210,7 @@ check= true;
 } catch (SOLException e) { 
 
 e.printStackTrace};
+
 } 
 
 
